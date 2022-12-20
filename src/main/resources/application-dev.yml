@@ -1,0 +1,57 @@
+server:
+  port: 9999
+  tomcat:
+    uri-encoding: utf-8
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1433;DatabaseName=test;encrypt=true;trustServerCertificate=true;useSSL=false
+    username: sa
+    password: overseas
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      #      连接池启动时的初始值
+      initial-size: 10
+      #      最小空闲值:当空闲的连接数少于阀值时，连接池就会预申请去一些连接，以免洪峰来时来不及申请:
+      min-idle: 10
+      #      连接池的最大值
+      max-active: 100
+
+      web-stat-filter:
+        exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*"
+      stat-view-servlet:
+        login-username: druid
+        login-password: druid
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 160000
+      max-evictable-idle-time-millis: 230000
+
+
+mybatis-plus:
+  configuration:
+    #这个配置会将执行的sql打印出来，在开发或测试的时候可以用
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 是否开启自动驼峰命名规则（camel case）映射，即从经典数据库列名 A_COLUMN（下划线命名） 到经典 Java 属性名 aColumn（驼峰命名） 的类似映射
+    map-underscore-to-camel-case: true
+    #懒加载
+    aggressive-lazy-loading: true
+    #是否允许映射结果为多个数据集
+    multiple-result-sets-enabled: false
+  global-config:
+    db-config:
+      #表名下划线命名默认为true
+      table-underline: false
+      #id类型。
+      id-type: ASSIGN_ID # 默认为ASSIGN_ID
+      #是否开启大写命名，默认不开启
+      capital-mode: false
+      #逻辑未删除值，（逻辑删除下有效）
+      logic-delete-value: 1
+      #逻辑未删除值，（逻辑删除下有效）需要注入逻辑策略LogicSqlInjector，以@Bean方式注      入
+      logic-not-delete-value: 0
+  #配置扫描xml
+  mapper-locations:
+    # *.xml的具体路径
+    - classpath*:/com/example/lirui/mapper/xml/*.xml
+  #别名包扫描路径，通过该属性可以给包中的类注册别名，多个package用逗号或者分号分隔
+  type-aliases-package: com.example.lirui.pojo

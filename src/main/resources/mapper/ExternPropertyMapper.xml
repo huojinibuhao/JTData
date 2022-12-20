@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.lirui.mapper.ExternPropertyMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.lirui.pojo.ExternProperty">
+            <id property="id" column="id" jdbcType="VARCHAR"/>
+            <result property="binschemeid" column="binSchemeID" jdbcType="VARCHAR"/>
+            <result property="binschemedesc" column="binSchemeDesc" jdbcType="VARCHAR"/>
+            <result property="bincode" column="binCode" jdbcType="VARCHAR"/>
+            <result property="quantity" column="quantity" jdbcType="VARCHAR"/>
+            <result property="customfields" column="customFields" jdbcType="VARCHAR"/>
+            <result property="quantitytype" column="quantityType" jdbcType="VARCHAR"/>
+            <result property="grade
+" column="grade
+" jdbcType="VARCHAR"/>
+            <result property="uoc" column="uoc" jdbcType="VARCHAR"/>
+            <result property="rmks" column="rMKS" jdbcType="VARCHAR"/>
+            <result property="partno" column="partNo" jdbcType="VARCHAR"/>
+            <result property="jtprdcode" column="jtPrdCode" jdbcType="VARCHAR"/>
+            <result property="etaout" column="etaOut" jdbcType="VARCHAR"/>
+            <result property="recipe" column="recipe" jdbcType="VARCHAR"/>
+            <result property="colorcodeb" column="colorCodeB" jdbcType="VARCHAR"/>
+            <result property="colors" column="colorS" jdbcType="VARCHAR"/>
+            <result property="figure" column="figure" jdbcType="VARCHAR"/>
+            <result property="outlabelc" column="outLabelC" jdbcType="VARCHAR"/>
+            <result property="pcode" column="pCode" jdbcType="VARCHAR"/>
+            <result property="slabellt" column="sLabellT" jdbcType="VARCHAR"/>
+            <result property="pmpp" column="pmpp" jdbcType="VARCHAR"/>
+            <result property="companycode" column="companyCode" jdbcType="VARCHAR"/>
+            <result property="eta" column="eta" jdbcType="VARCHAR"/>
+            <result property="colorcodes" column="colorCodeS" jdbcType="VARCHAR"/>
+            <result property="uoce" column="uocE" jdbcType="VARCHAR"/>
+            <result property="color" column="color" jdbcType="VARCHAR"/>
+            <result property="thick" column="thick" jdbcType="VARCHAR"/>
+            <result property="productcode" column="productCode" jdbcType="VARCHAR"/>
+            <result property="productname" column="productName" jdbcType="VARCHAR"/>
+            <result property="productid" column="productId" jdbcType="VARCHAR"/>
+            <result property="month" column="month" jdbcType="VARCHAR"/>
+            <result property="year" column="year" jdbcType="VARCHAR"/>
+            <result property="day" column="day" jdbcType="VARCHAR"/>
+            <result property="machinename" column="machineName" jdbcType="VARCHAR"/>
+            <result property="machinecode" column="machineCode" jdbcType="VARCHAR"/>
+            <result property="line" column="line" jdbcType="VARCHAR"/>
+            <result property="testface" column="testFace" jdbcType="VARCHAR"/>
+            <result property="factorycode" column="factoryCode" jdbcType="VARCHAR"/>
+            <result property="sitecode" column="siteCode" jdbcType="VARCHAR"/>
+            <result property="site" column="site" jdbcType="VARCHAR"/>
+            <result property="productno" column="productNo" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,binSchemeID,binSchemeDesc,
+        binCode,quantity,customFields,
+        quantityType,grade
+,uoc,
+        rMKS,partNo,jtPrdCode,
+        etaOut,recipe,colorCodeB,
+        colorS,figure,outLabelC,
+        pCode,sLabellT,pmpp,
+        companyCode,eta,colorCodeS,
+        uocE,color,thick,
+        productCode,productName,productId,
+        month,year,day,
+        machineName,machineCode,line,
+        testFace,factoryCode,siteCode,
+        site,productNo
+    </sql>
+</mapper>

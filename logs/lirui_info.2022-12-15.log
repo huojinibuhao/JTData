@@ -1,0 +1,381 @@
+2022-12-15 09:53:17.816 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2022-12-15 09:53:18.432 - INFO 16320 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 16320 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2022-12-15 09:53:18.433 - INFO 16320 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2022-12-15 09:53:18.557 - WARN 16320 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-12-15 09:53:19.522 - INFO 16320 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-15 09:53:19.775 - INFO 16320 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2022-12-15 09:53:19.785 - INFO 16320 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2022-12-15 09:53:19.786 - INFO 16320 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2022-12-15 09:53:19.787 - INFO 16320 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-12-15 09:53:19.895 - INFO 16320 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2022-12-15 09:53:19.896 - INFO 16320 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1423 ms
+2022-12-15 09:53:19.942 - WARN 16320 [           main] ConfigServletWebServerApplicationContext 558: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dynamicScheduleTask': Unsatisfied dependency expressed through field 'cronMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.lirui.config.DynamicScheduleTask$TimerCronMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-12-15 09:53:19.944 - INFO 16320 [           main] o.apache.catalina.core.StandardService   173: Stopping service [Tomcat]
+2022-12-15 09:53:20.055 - INFO 16320 [           main] ConditionEvaluationReportLoggingListener 136: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-15 09:53:20.192 -ERROR 16320 [           main] o.s.b.d.LoggingFailureAnalysisReporter   40: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cronMapper in com.example.lirui.config.DynamicScheduleTask required a bean of type 'com.example.lirui.config.DynamicScheduleTask$TimerCronMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.lirui.config.DynamicScheduleTask$TimerCronMapper' in your configuration.
+
+2022-12-15 09:56:17.934 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2022-12-15 09:56:18.483 - INFO 5940 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 5940 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2022-12-15 09:56:18.484 - INFO 5940 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2022-12-15 09:56:18.596 - WARN 5940 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-12-15 09:56:19.480 - INFO 5940 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-15 09:56:19.664 - INFO 5940 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2022-12-15 09:56:19.670 - INFO 5940 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2022-12-15 09:56:19.671 - INFO 5940 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2022-12-15 09:56:19.671 - INFO 5940 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-12-15 09:56:19.801 - INFO 5940 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2022-12-15 09:56:19.801 - INFO 5940 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1254 ms
+2022-12-15 09:56:19.844 - WARN 5940 [           main] ConfigServletWebServerApplicationContext 558: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dynamicScheduleTask': Unsatisfied dependency expressed through field 'cronMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.lirui.config.DynamicScheduleTask$TimerCronMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-12-15 09:56:19.846 - INFO 5940 [           main] o.apache.catalina.core.StandardService   173: Stopping service [Tomcat]
+2022-12-15 09:56:19.909 - INFO 5940 [           main] ConditionEvaluationReportLoggingListener 136: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-15 09:56:20.029 -ERROR 5940 [           main] o.s.b.d.LoggingFailureAnalysisReporter   40: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cronMapper in com.example.lirui.config.DynamicScheduleTask required a bean of type 'com.example.lirui.config.DynamicScheduleTask$TimerCronMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.lirui.config.DynamicScheduleTask$TimerCronMapper' in your configuration.
+
+2022-12-15 09:59:53.944 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2022-12-15 09:59:54.522 - INFO 2228 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 2228 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2022-12-15 09:59:54.523 - INFO 2228 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2022-12-15 09:59:54.860 - WARN 2228 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-12-15 09:59:55.643 - INFO 2228 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-15 09:59:55.815 - INFO 2228 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2022-12-15 09:59:55.822 - INFO 2228 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2022-12-15 09:59:55.822 - INFO 2228 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2022-12-15 09:59:55.822 - INFO 2228 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-12-15 09:59:55.926 - INFO 2228 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2022-12-15 09:59:55.926 - INFO 2228 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1357 ms
+2022-12-15 09:59:56.054 - INFO 2228 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2022-12-15 09:59:56.639 - INFO 2228 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2022-12-15 09:59:56.912 - WARN 2228 [           main] c.b.m.core.injector.DefaultSqlInjector   56: class com.example.lirui.pojo.TimerCron ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-15 09:59:57.317 - INFO 2228 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-15 09:59:57.385 - INFO 2228 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-15 09:59:57.519 - INFO 2228 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2022-12-15 09:59:57.540 - INFO 2228 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2022-12-15 09:59:57.569 - INFO 2228 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2022-12-15 09:59:57.684 - INFO 2228 [           main] s.a.ScheduledAnnotationBeanPostProcessor 297: No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-12-15 09:59:57.773 - INFO 2228 [           main] o.apache.catalina.core.StandardService   173: Stopping service [Tomcat]
+2022-12-15 09:59:57.784 - INFO 2228 [           main] ConditionEvaluationReportLoggingListener 136: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-15 09:59:57.801 -ERROR 2228 [           main] o.s.boot.SpringApplication               826: Application run failed
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error querying database.  Cause: com.microsoft.sqlserver.jdbc.SQLServerException: “1”附近有语法错误。
+### The error may exist in com/example/lirui/mapper/TimerCronMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select cron from cron limit 1
+### Cause: com.microsoft.sqlserver.jdbc.SQLServerException: “1”附近有语法错误。
+; uncategorized SQLException; SQL state [S0001]; error code [102]; “1”附近有语法错误。; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: “1”附近有语法错误。
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy83.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:89)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy86.getCron(Unknown Source)
+	at com.example.lirui.config.DynamicScheduleTask.lambda$configureTasks$1(DynamicScheduleTask.java:43)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.schedule(ReschedulingRunnable.java:75)
+	at org.springframework.scheduling.concurrent.ConcurrentTaskScheduler.schedule(ConcurrentTaskScheduler.java:182)
+	at org.springframework.scheduling.config.ScheduledTaskRegistrar.scheduleTriggerTask(ScheduledTaskRegistrar.java:406)
+	at org.springframework.scheduling.config.ScheduledTaskRegistrar.scheduleTasks(ScheduledTaskRegistrar.java:364)
+	at org.springframework.scheduling.config.ScheduledTaskRegistrar.afterPropertiesSet(ScheduledTaskRegistrar.java:349)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.finishRegistration(ScheduledAnnotationBeanPostProcessor.java:302)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.onApplicationEvent(ScheduledAnnotationBeanPostProcessor.java:233)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.onApplicationEvent(ScheduledAnnotationBeanPostProcessor.java:105)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:897)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.lirui.LiruiApplication.main(LiruiApplication.java:14)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: “1”附近有语法错误。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:258)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1535)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:467)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:409)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7151)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2478)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:219)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:199)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:393)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:483)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy128.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 30 common frames omitted
+2022-12-15 09:59:57.811 - INFO 2228 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-15 09:59:57.813 - INFO 2228 [           main] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2022-12-15 09:59:57.820 - INFO 2228 [           main] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2022-12-15 10:02:13.519 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2022-12-15 10:02:13.959 - INFO 11636 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 11636 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2022-12-15 10:02:13.959 - INFO 11636 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2022-12-15 10:02:14.081 - WARN 11636 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-12-15 10:02:14.801 - INFO 11636 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-15 10:02:14.966 - INFO 11636 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2022-12-15 10:02:14.973 - INFO 11636 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2022-12-15 10:02:14.974 - INFO 11636 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2022-12-15 10:02:14.974 - INFO 11636 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-12-15 10:02:15.084 - INFO 11636 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2022-12-15 10:02:15.085 - INFO 11636 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1081 ms
+2022-12-15 10:02:15.169 - INFO 11636 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2022-12-15 10:02:15.686 - INFO 11636 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2022-12-15 10:02:15.952 - WARN 11636 [           main] c.b.m.core.injector.DefaultSqlInjector   56: class com.example.lirui.pojo.TimerCron ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-15 10:02:16.328 - INFO 11636 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-15 10:02:16.396 - INFO 11636 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-15 10:02:16.509 - INFO 11636 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2022-12-15 10:02:16.520 - INFO 11636 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2022-12-15 10:02:16.548 - INFO 11636 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2022-12-15 10:02:16.653 - INFO 11636 [           main] s.a.ScheduledAnnotationBeanPostProcessor 297: No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-12-15 10:02:16.712 - INFO 11636 [           main] o.apache.catalina.core.StandardService   173: Stopping service [Tomcat]
+2022-12-15 10:02:16.716 - INFO 11636 [           main] ConditionEvaluationReportLoggingListener 136: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-15 10:02:16.722 -ERROR 11636 [           main] o.s.boot.SpringApplication               826: Application run failed
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 对象名 'TimerCron' 无效。
+### The error may exist in com/example/lirui/mapper/TimerCronMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select top 1 cron from TimerCron
+### Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 对象名 'TimerCron' 无效。
+; bad SQL grammar []; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 对象名 'TimerCron' 无效。
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy83.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:89)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy86.getCron(Unknown Source)
+	at com.example.lirui.config.DynamicScheduleTask.lambda$configureTasks$1(DynamicScheduleTask.java:43)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.schedule(ReschedulingRunnable.java:75)
+	at org.springframework.scheduling.concurrent.ConcurrentTaskScheduler.schedule(ConcurrentTaskScheduler.java:182)
+	at org.springframework.scheduling.config.ScheduledTaskRegistrar.scheduleTriggerTask(ScheduledTaskRegistrar.java:406)
+	at org.springframework.scheduling.config.ScheduledTaskRegistrar.scheduleTasks(ScheduledTaskRegistrar.java:364)
+	at org.springframework.scheduling.config.ScheduledTaskRegistrar.afterPropertiesSet(ScheduledTaskRegistrar.java:349)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.finishRegistration(ScheduledAnnotationBeanPostProcessor.java:302)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.onApplicationEvent(ScheduledAnnotationBeanPostProcessor.java:233)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.onApplicationEvent(ScheduledAnnotationBeanPostProcessor.java:105)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:897)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.lirui.LiruiApplication.main(LiruiApplication.java:14)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: 对象名 'TimerCron' 无效。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:258)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1535)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:467)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:409)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7151)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2478)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:219)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:199)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:393)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:483)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy128.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 30 common frames omitted
+2022-12-15 10:02:16.725 - INFO 11636 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-15 10:02:16.727 - INFO 11636 [           main] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2022-12-15 10:02:16.729 - INFO 11636 [           main] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2022-12-15 10:02:55.668 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2022-12-15 10:02:56.051 - INFO 7908 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 7908 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2022-12-15 10:02:56.051 - INFO 7908 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2022-12-15 10:02:56.201 - WARN 7908 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-12-15 10:02:56.897 - INFO 7908 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-15 10:02:57.053 - INFO 7908 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2022-12-15 10:02:57.059 - INFO 7908 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2022-12-15 10:02:57.059 - INFO 7908 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2022-12-15 10:02:57.060 - INFO 7908 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-12-15 10:02:57.173 - INFO 7908 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2022-12-15 10:02:57.173 - INFO 7908 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1064 ms
+2022-12-15 10:02:57.262 - INFO 7908 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2022-12-15 10:02:57.792 - INFO 7908 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2022-12-15 10:02:58.076 - WARN 7908 [           main] c.b.m.core.injector.DefaultSqlInjector   56: class com.example.lirui.pojo.TimerCron ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-15 10:02:58.478 - INFO 7908 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-15 10:02:58.535 - INFO 7908 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-15 10:02:58.649 - INFO 7908 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2022-12-15 10:02:58.661 - INFO 7908 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2022-12-15 10:02:58.681 - INFO 7908 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2022-12-15 10:02:58.797 - INFO 7908 [           main] s.a.ScheduledAnnotationBeanPostProcessor 297: No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-12-15 10:02:58.844 - INFO 7908 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2022-12-15 10:02:58.881 - INFO 7908 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2022-12-15 10:02:58.884 - INFO 7908 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.182 seconds (JVM running for 3.847)
+2022-12-15 10:04:39.210 - INFO 7908 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-15 10:04:39.212 - INFO 7908 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2022-12-15 10:04:39.215 - INFO 7908 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2022-12-15 10:04:43.287 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2022-12-15 10:04:43.652 - INFO 3220 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 3220 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2022-12-15 10:04:43.653 - INFO 3220 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2022-12-15 10:04:43.763 - WARN 3220 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-12-15 10:04:44.487 - INFO 3220 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-15 10:04:44.646 - INFO 3220 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2022-12-15 10:04:44.653 - INFO 3220 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2022-12-15 10:04:44.653 - INFO 3220 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2022-12-15 10:04:44.653 - INFO 3220 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-12-15 10:04:44.747 - INFO 3220 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2022-12-15 10:04:44.747 - INFO 3220 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1063 ms
+2022-12-15 10:04:44.852 - INFO 3220 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2022-12-15 10:04:45.403 - INFO 3220 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2022-12-15 10:04:45.715 - WARN 3220 [           main] c.b.m.core.injector.DefaultSqlInjector   56: class com.example.lirui.pojo.TimerCron ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-15 10:04:46.192 - INFO 3220 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-15 10:04:46.264 - INFO 3220 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-15 10:04:46.457 - INFO 3220 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2022-12-15 10:04:46.468 - INFO 3220 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2022-12-15 10:04:46.488 - INFO 3220 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2022-12-15 10:04:46.577 - INFO 3220 [           main] s.a.ScheduledAnnotationBeanPostProcessor 297: No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-12-15 10:04:46.621 - INFO 3220 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2022-12-15 10:04:46.656 - INFO 3220 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2022-12-15 10:04:46.658 - INFO 3220 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.336 seconds (JVM running for 3.99)
+2022-12-15 10:06:50.605 - INFO 3220 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-15 10:06:50.607 - INFO 3220 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2022-12-15 10:06:50.616 - INFO 3220 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2022-12-15 10:06:55.022 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2022-12-15 10:06:55.533 - INFO 12192 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 12192 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2022-12-15 10:06:55.537 - INFO 12192 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2022-12-15 10:06:55.728 - WARN 12192 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-12-15 10:06:56.418 - INFO 12192 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-15 10:06:56.568 - INFO 12192 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2022-12-15 10:06:56.573 - INFO 12192 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2022-12-15 10:06:56.574 - INFO 12192 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2022-12-15 10:06:56.574 - INFO 12192 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-12-15 10:06:56.666 - INFO 12192 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2022-12-15 10:06:56.667 - INFO 12192 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1054 ms
+2022-12-15 10:06:56.761 - INFO 12192 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2022-12-15 10:06:57.293 - INFO 12192 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2022-12-15 10:06:57.555 - WARN 12192 [           main] c.b.m.core.injector.DefaultSqlInjector   56: class com.example.lirui.pojo.TimerCron ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-15 10:06:57.945 - INFO 12192 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-15 10:06:58.007 - INFO 12192 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-15 10:06:58.124 - INFO 12192 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2022-12-15 10:06:58.135 - INFO 12192 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2022-12-15 10:06:58.159 - INFO 12192 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2022-12-15 10:06:58.265 - INFO 12192 [           main] s.a.ScheduledAnnotationBeanPostProcessor 297: No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-12-15 10:06:58.308 - INFO 12192 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2022-12-15 10:06:58.341 - INFO 12192 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2022-12-15 10:06:58.343 - INFO 12192 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.279 seconds (JVM running for 3.944)
+2022-12-15 10:08:05.659 - INFO 12192 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-15 10:08:05.660 - INFO 12192 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2022-12-15 10:08:05.664 - INFO 12192 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2022-12-15 10:08:07.975 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2022-12-15 10:08:08.341 - INFO 13096 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 13096 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2022-12-15 10:08:08.342 - INFO 13096 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2022-12-15 10:08:08.455 - WARN 13096 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-12-15 10:08:09.159 - INFO 13096 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-15 10:08:09.312 - INFO 13096 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2022-12-15 10:08:09.318 - INFO 13096 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2022-12-15 10:08:09.318 - INFO 13096 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2022-12-15 10:08:09.318 - INFO 13096 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-12-15 10:08:09.410 - INFO 13096 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2022-12-15 10:08:09.411 - INFO 13096 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1035 ms
+2022-12-15 10:08:09.504 - INFO 13096 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2022-12-15 10:08:10.062 - INFO 13096 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2022-12-15 10:08:10.322 - WARN 13096 [           main] c.b.m.core.injector.DefaultSqlInjector   56: class com.example.lirui.pojo.TimerCron ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-15 10:08:10.647 - INFO 13096 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-15 10:08:10.711 - INFO 13096 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-15 10:08:10.834 - INFO 13096 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2022-12-15 10:08:10.845 - INFO 13096 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2022-12-15 10:08:10.865 - INFO 13096 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2022-12-15 10:08:10.952 - INFO 13096 [           main] s.a.ScheduledAnnotationBeanPostProcessor 297: No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-12-15 10:08:10.996 - INFO 13096 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2022-12-15 10:08:11.029 - INFO 13096 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2022-12-15 10:08:11.032 - INFO 13096 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.024 seconds (JVM running for 3.693)
+2022-12-15 10:12:38.606 - INFO 13096 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-15 10:12:38.608 - INFO 13096 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2022-12-15 10:12:38.611 - INFO 13096 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed

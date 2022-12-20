@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+  swagger2:
+    enable: true
+logging:
+  level:
+    com.example.lirui.mapper: info

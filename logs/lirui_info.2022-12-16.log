@@ -1,0 +1,53 @@
+2022-12-16 09:38:14.708 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2022-12-16 09:38:15.252 - INFO 18404 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 18404 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2022-12-16 09:38:15.253 - INFO 18404 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2022-12-16 09:38:15.461 - WARN 18404 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-12-16 09:38:16.320 - INFO 18404 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-16 09:38:16.804 - INFO 18404 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2022-12-16 09:38:16.814 - INFO 18404 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2022-12-16 09:38:16.815 - INFO 18404 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2022-12-16 09:38:16.815 - INFO 18404 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-12-16 09:38:16.916 - INFO 18404 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2022-12-16 09:38:16.916 - INFO 18404 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1596 ms
+2022-12-16 09:38:17.017 - INFO 18404 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2022-12-16 09:38:17.758 - INFO 18404 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2022-12-16 09:38:18.060 - WARN 18404 [           main] c.b.m.core.injector.DefaultSqlInjector   56: class com.example.lirui.pojo.TimerCron ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-16 09:38:18.539 - INFO 18404 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-16 09:38:18.621 - INFO 18404 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-16 09:38:18.760 - INFO 18404 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2022-12-16 09:38:18.794 - INFO 18404 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2022-12-16 09:38:18.816 - INFO 18404 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2022-12-16 09:38:18.934 - INFO 18404 [           main] s.a.ScheduledAnnotationBeanPostProcessor 297: No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-12-16 09:38:18.999 - INFO 18404 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2022-12-16 09:38:19.109 - INFO 18404 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2022-12-16 09:38:19.114 - INFO 18404 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 4.353 seconds (JVM running for 5.319)
+2022-12-16 09:43:28.086 - INFO 18404 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-16 09:43:28.089 - INFO 18404 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2022-12-16 09:43:28.094 - INFO 18404 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2022-12-16 09:43:30.982 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2022-12-16 09:43:31.494 - INFO 608 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 608 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2022-12-16 09:43:31.495 - INFO 608 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2022-12-16 09:43:31.645 - WARN 608 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-12-16 09:43:32.380 - INFO 608 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-16 09:43:32.546 - INFO 608 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2022-12-16 09:43:32.552 - INFO 608 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2022-12-16 09:43:32.553 - INFO 608 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2022-12-16 09:43:32.553 - INFO 608 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-12-16 09:43:32.670 - INFO 608 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2022-12-16 09:43:32.670 - INFO 608 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1124 ms
+2022-12-16 09:43:32.782 - INFO 608 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2022-12-16 09:43:33.387 - INFO 608 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2022-12-16 09:43:34.110 - INFO 608 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-16 09:43:34.183 - INFO 608 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-16 09:43:34.302 - INFO 608 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2022-12-16 09:43:34.318 - INFO 608 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2022-12-16 09:43:34.355 - INFO 608 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2022-12-16 09:43:34.454 - INFO 608 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2022-12-16 09:43:34.492 - INFO 608 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2022-12-16 09:43:34.494 - INFO 608 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.468 seconds (JVM running for 4.228)
+2022-12-16 09:44:00.815 - INFO 608 [nio-9999-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-16 09:44:00.816 - INFO 608 [nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2022-12-16 09:44:00.820 - INFO 608 [nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 4 ms
+2022-12-16 17:01:54.679 - INFO 608 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-16 17:01:54.700 - INFO 608 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2022-12-16 17:01:54.704 - INFO 608 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
