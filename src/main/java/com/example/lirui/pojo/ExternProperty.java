@@ -8,6 +8,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @author lr
@@ -73,7 +74,7 @@ public class ExternProperty implements Serializable {
      */
     @TableField(value = "uoc")
     private String uoc;
-    
+
     @TableField(value = "rmks")
     private String rmks;
 
@@ -262,5 +263,29 @@ public class ExternProperty implements Serializable {
      */
     @TableField(value = "product_no")
     private String productno;
+
+    @TableField(value = "flow_num")
+    private String flowNum;
+
+    @TableField(value = "date_flow_num")
+    private String dateFlowNum;
+
+    @TableField(value = "record_time")
+    private Date recordTime;
+
+    @TableField(value = "rang")
+    private String rang;
+
+    @TableField(value = "rang_name")
+    private String rangName;
+
+    @TableField(value = "week")
+    private String week;
+
+    @TableField(value = "shift_week")
+    private String shiftWeek;
+
+    @TableField(value = "bar_code")
+    private String barCode;
 
 }

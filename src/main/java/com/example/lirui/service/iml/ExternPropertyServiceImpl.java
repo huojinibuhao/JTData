@@ -4,10 +4,12 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.example.lirui.mapper.ExternPropertyMapper;
+import com.example.lirui.msg.ResponseResult;
 import com.example.lirui.pojo.ExternProperty;
 import com.example.lirui.pojo.MoData;
 import com.example.lirui.service.ExternPropertyService;
 import com.example.lirui.service.MoDataService;
+import com.example.lirui.utils.HttpURLConnectionHelper;
 import com.example.lirui.utils.UUIDUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -34,7 +36,11 @@ public class ExternPropertyServiceImpl extends ServiceImpl<ExternPropertyMapper,
 
     @Override
     @Transactional
-    public String insertData(HttpServletRequest request, String map) {
+    public ResponseResult insertData(HttpServletRequest request) {
+        String url = "http://172.20.82.252:8898/api/Query/QueryProductPackages";
+        HttpURLConnectionHelper httpURLConnectionHelper = new HttpURLConnectionHelper();
+        String map = httpURLConnectionHelper.sendRequest(url, "GET");
+
         // 将String转化为相应的JSONObject对象，map是“键值对”形式的json字符串，转化为JSONObject对象之后就可以使用其内置的方法
         JSONObject jsonObject = JSONObject.parseObject(map);
         // 根据key获取json数组中对应的值
@@ -47,14 +53,17 @@ public class ExternPropertyServiceImpl extends ServiceImpl<ExternPropertyMapper,
             JSONObject modataJson = selfData.getJSONObject(i);
             String externPropertyId = UUIDUtils.generateShortUuid();
             JSONArray box_package_code = modataJson.getJSONArray("box_package_code");
-            int count = box_package_code.size();
+//            int count = box_package_code.size();
             StringBuffer boxPackageCodes = new StringBuffer();
-            for (int j = 0; j < count; j++) {
-                boxPackageCodes.append(box_package_code.getString(j));
-                if (j < count - 1) {
-                    boxPackageCodes.append(",");
+            if (box_package_code != null && box_package_code.size() > 0) {
+                for (int j = 0; j < box_package_code.size(); j++) {
+                    boxPackageCodes.append(box_package_code.getString(j));
+                    if (j < box_package_code.size() - 1) {
+                        boxPackageCodes.append(",");
+                    }
                 }
             }
+
             MoData moData = MoData.builder()
                     .id(modataJson.getString("id"))
                     .packageCode(modataJson.getString("package_code"))
@@ -85,6 +94,19 @@ public class ExternPropertyServiceImpl extends ServiceImpl<ExternPropertyMapper,
                     .classValue(modataJson.getString("class_value"))
                     .quantity(modataJson.getInteger("quantity"))
                     .externPropertyId(externPropertyId)
+                    .packageType(modataJson.getString("package_type"))
+                    .packageTypeName(modataJson.getString("package_type_name"))
+                    .packageState(modataJson.getString("package_state"))
+                    .packageStateName(modataJson.getString("package_state_name"))
+                    .printType(modataJson.getString("print_type"))
+                    .printTypeName(modataJson.getString("print_type_name"))
+                    .createUser(modataJson.getString("create_user"))
+                    .testTypeValue(modataJson.getString("testtype_value"))
+                    .siteValue(modataJson.getString("site_value"))
+                    .lineValue(modataJson.getString("line_value"))
+                    .shiftDay(modataJson.getString("shiftday"))
+                    .shiftName(modataJson.getString("shiftname"))
+                    .classCode(modataJson.getString("classcode"))
                     .build();
 
             JSONObject externPropertyJson = modataJson.getJSONObject("extern_property");
@@ -130,13 +152,20 @@ public class ExternPropertyServiceImpl extends ServiceImpl<ExternPropertyMapper,
                     .sitecode(externPropertyJson.getString("SiteCode"))
                     .site(externPropertyJson.getString("Site"))
                     .productno(externPropertyJson.getString("ProductNo"))
+                    .flowNum(externPropertyJson.getString("FlowNum"))
+                    .dateFlowNum(externPropertyJson.getString("DateFlowNum"))
+                    .recordTime(externPropertyJson.getDate("RecordTime"))
+                    .rang(externPropertyJson.getString("Rang"))
+                    .rangName(externPropertyJson.getString("RangName"))
+                    .week(externPropertyJson.getString("Week"))
+                    .shiftWeek(externPropertyJson.getString("ShiftWeek"))
+                    .barCode(externPropertyJson.getString("Barcode"))
                     .build();
             moDataArrayList.add(moData);
             externProperties.add(externProperty);
         }
         moDataService.saveBatch(moDataArrayList);
         externPropertyService.saveBatch(externProperties);
-        return "Success";
+        return ResponseResult.okResult();
     }
-
 }

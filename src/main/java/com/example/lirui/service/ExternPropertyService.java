@@ -1,11 +1,10 @@
 package com.example.lirui.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.example.lirui.msg.ResponseResult;
 import com.example.lirui.pojo.ExternProperty;
-import com.example.lirui.pojo.MoData;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.Map;
 
 /**
  * (ExternProperty)表服务接口
@@ -15,5 +14,5 @@ import java.util.Map;
  */
 public interface ExternPropertyService extends IService<ExternProperty> {
 
-    String insertData(HttpServletRequest request, String map);
+    ResponseResult insertData(HttpServletRequest request);
 }

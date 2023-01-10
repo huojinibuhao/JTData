@@ -1,10 +1,10 @@
 package com.example.lirui.controller;
 
+import com.example.lirui.msg.ResponseResult;
 import com.example.lirui.service.ExternPropertyService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -24,10 +24,9 @@ public class ExternPropertyController {
 
     @GetMapping("test1")
     @ApiOperation("demo")
-    public String test1(HttpServletRequest request, @RequestBody String map) {
-        String success = externPropertyService.insertData(request, map);
-        System.out.println(map);
-        return "Success";
+    public ResponseResult test1(HttpServletRequest request) {
+        ResponseResult responseResult = externPropertyService.insertData(request);
+        return responseResult;
     }
 
 }
