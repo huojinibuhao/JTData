@@ -9,8 +9,6 @@ import com.example.lirui.pojo.ExternProperty;
 import com.example.lirui.pojo.MoData;
 import com.example.lirui.service.ExternPropertyService;
 import com.example.lirui.service.MoDataService;
-import com.example.lirui.utils.HttpURLConnectionHelper;
-import com.example.lirui.utils.UUIDUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -36,10 +34,7 @@ public class ExternPropertyServiceImpl extends ServiceImpl<ExternPropertyMapper,
 
     @Override
     @Transactional
-    public ResponseResult insertData(HttpServletRequest request) {
-        String url = "http://172.20.82.252:8898/api/Query/QueryProductPackages";
-        HttpURLConnectionHelper httpURLConnectionHelper = new HttpURLConnectionHelper();
-        String map = httpURLConnectionHelper.sendRequest(url, "GET");
+    public ResponseResult insertData(HttpServletRequest request, String map) {
 
         // 将String转化为相应的JSONObject对象，map是“键值对”形式的json字符串，转化为JSONObject对象之后就可以使用其内置的方法
         JSONObject jsonObject = JSONObject.parseObject(map);
@@ -51,8 +46,10 @@ public class ExternPropertyServiceImpl extends ServiceImpl<ExternPropertyMapper,
 
         for (int i = 0; i < selfData.size(); i++) {
             JSONObject modataJson = selfData.getJSONObject(i);
-            String externPropertyId = UUIDUtils.generateShortUuid();
-            JSONArray box_package_code = modataJson.getJSONArray("box_package_code");
+//            String externPropertyId = UUIDUtils.generateShortUuid();
+            String externPropertyId = modataJson.getString("id") + modataJson.getString("package_code");
+            JSONArray box_package_code = modataJson.getJSONArray(
+                    "box_package_code");
 //            int count = box_package_code.size();
             StringBuffer boxPackageCodes = new StringBuffer();
             if (box_package_code != null && box_package_code.size() > 0) {
@@ -164,8 +161,8 @@ public class ExternPropertyServiceImpl extends ServiceImpl<ExternPropertyMapper,
             moDataArrayList.add(moData);
             externProperties.add(externProperty);
         }
-        moDataService.saveBatch(moDataArrayList);
-        externPropertyService.saveBatch(externProperties);
+        moDataService.saveOrUpdateBatch(moDataArrayList);
+        externPropertyService.saveOrUpdateBatch(externProperties);
         return ResponseResult.okResult();
     }
 }

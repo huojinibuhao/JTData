@@ -14,5 +14,5 @@ import javax.servlet.http.HttpServletRequest;
  */
 public interface ExternPropertyService extends IService<ExternProperty> {
 
-    ResponseResult insertData(HttpServletRequest request);
+    ResponseResult insertData(HttpServletRequest request, String map);
 }

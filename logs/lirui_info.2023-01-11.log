@@ -1,0 +1,1820 @@
+2023-01-11 08:30:29.815 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2023-01-11 08:30:30.523 - INFO 19404 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 19404 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 08:30:30.527 - INFO 19404 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 08:30:30.749 - WARN 19404 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-01-11 08:30:31.927 - INFO 19404 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 08:30:32.116 - INFO 19404 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 08:30:32.123 - INFO 19404 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 08:30:32.124 - INFO 19404 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 08:30:32.124 - INFO 19404 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 08:30:32.242 - INFO 19404 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 08:30:32.242 - INFO 19404 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1625 ms
+2023-01-11 08:30:32.360 - INFO 19404 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 08:30:33.099 - INFO 19404 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 08:30:33.826 - INFO 19404 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 08:30:33.896 - INFO 19404 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 08:30:34.028 - INFO 19404 [           main] o.s.s.c.ThreadPoolTaskScheduler          171: Initializing ExecutorService 'taskScheduler'
+2023-01-11 08:30:34.066 - INFO 19404 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 08:30:34.080 - INFO 19404 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 08:30:34.103 - INFO 19404 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 08:30:34.252 - INFO 19404 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 08:30:34.300 - INFO 19404 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 08:30:34.302 - INFO 19404 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 4.412 seconds (JVM running for 5.701)
+2023-01-11 08:30:40.072 - INFO 19404 [nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 08:30:40.073 - INFO 19404 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2023-01-11 08:30:40.076 - INFO 19404 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 3 ms
+2023-01-11 08:45:16.109 - INFO 19404 [extShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          208: Shutting down ExecutorService 'taskScheduler'
+2023-01-11 08:45:16.110 - INFO 19404 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 08:45:16.111 - INFO 19404 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 08:45:16.113 - INFO 19404 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2023-01-11 08:47:26.577 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2023-01-11 08:47:27.024 - INFO 22640 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 22640 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 08:47:27.025 - INFO 22640 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 08:47:27.216 - WARN 22640 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-01-11 08:47:27.896 - INFO 22640 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 08:47:28.062 - INFO 22640 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 08:47:28.068 - INFO 22640 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 08:47:28.068 - INFO 22640 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 08:47:28.069 - INFO 22640 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 08:47:28.164 - INFO 22640 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 08:47:28.164 - INFO 22640 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1075 ms
+2023-01-11 08:47:28.266 - INFO 22640 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 08:47:28.822 - INFO 22640 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 08:47:29.444 - INFO 22640 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 08:47:29.504 - INFO 22640 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 08:47:29.625 - INFO 22640 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 08:47:29.637 - INFO 22640 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 08:47:29.665 - INFO 22640 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 08:47:29.789 - INFO 22640 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 08:47:29.828 - INFO 22640 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 08:47:29.830 - INFO 22640 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.205 seconds (JVM running for 4.132)
+2023-01-11 08:47:44.270 - INFO 22640 [nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 08:47:44.270 - INFO 22640 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2023-01-11 08:47:44.278 - INFO 22640 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 7 ms
+2023-01-11 08:56:38.931 - INFO 22640 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 08:56:38.936 - INFO 22640 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 08:56:38.940 - INFO 22640 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2023-01-11 08:56:43.965 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2023-01-11 08:56:44.371 - INFO 21924 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 21924 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 08:56:44.372 - INFO 21924 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 08:56:44.532 - WARN 21924 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-01-11 08:56:45.240 - INFO 21924 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 08:56:45.407 - INFO 21924 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 08:56:45.412 - INFO 21924 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 08:56:45.413 - INFO 21924 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 08:56:45.413 - INFO 21924 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 08:56:45.516 - INFO 21924 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 08:56:45.517 - INFO 21924 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1084 ms
+2023-01-11 08:56:45.616 - INFO 21924 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 08:56:46.190 - INFO 21924 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 08:56:46.825 - INFO 21924 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 08:56:46.885 - INFO 21924 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 08:56:46.993 - INFO 21924 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 08:56:47.006 - INFO 21924 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 08:56:47.027 - INFO 21924 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 08:56:47.138 - INFO 21924 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 08:56:47.177 - INFO 21924 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 08:56:47.179 - INFO 21924 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.18 seconds (JVM running for 3.855)
+2023-01-11 08:57:07.421 - INFO 21924 [nio-9999-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 08:57:07.421 - INFO 21924 [nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2023-01-11 08:57:07.429 - INFO 21924 [nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 7 ms
+2023-01-11 09:01:54.142 - INFO 21924 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 09:01:54.146 - INFO 21924 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 09:01:54.148 - INFO 21924 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2023-01-11 09:01:59.601 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2023-01-11 09:01:59.972 - INFO 22912 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 22912 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 09:01:59.973 - INFO 22912 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 09:02:00.112 - WARN 22912 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-01-11 09:02:00.859 - INFO 22912 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 09:02:01.023 - INFO 22912 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 09:02:01.030 - INFO 22912 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 09:02:01.030 - INFO 22912 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 09:02:01.031 - INFO 22912 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 09:02:01.122 - INFO 22912 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 09:02:01.123 - INFO 22912 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1103 ms
+2023-01-11 09:02:01.227 - INFO 22912 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 09:02:01.789 - INFO 22912 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 09:02:02.416 - INFO 22912 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 09:02:02.482 - INFO 22912 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 09:02:02.615 - INFO 22912 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 09:02:02.654 - INFO 22912 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 09:02:02.676 - INFO 22912 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 09:02:02.793 - INFO 22912 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 09:02:02.833 - INFO 22912 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 09:02:02.836 - INFO 22912 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.2 seconds (JVM running for 3.843)
+2023-01-11 09:02:27.472 - INFO 22912 [nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 09:02:27.473 - INFO 22912 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2023-01-11 09:02:27.478 - INFO 22912 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 5 ms
+2023-01-11 09:02:27.559 -ERROR 22912 [nio-9999-exec-1] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+java.lang.NullPointerException: null
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-01-11 09:07:48.587 -ERROR 22912 [nio-9999-exec-5] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+java.lang.NullPointerException: null
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-01-11 09:09:15.756 -ERROR 22912 [nio-9999-exec-7] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+java.lang.NullPointerException: null
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-01-11 09:11:10.965 - INFO 22912 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 09:11:10.970 - INFO 22912 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 09:11:10.974 - INFO 22912 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2023-01-11 09:11:16.783 - INFO PID_IS_UNDEFINED [           main] org.springframework.core.KotlinDetector  57: Kotlin reflection implementation not found at runtime, related features won't be available.
+2023-01-11 09:11:17.146 - INFO 17608 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 17608 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 09:11:17.147 - INFO 17608 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 09:11:17.265 - WARN 17608 [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    127: For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-01-11 09:11:18.043 - INFO 17608 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 09:11:18.215 - INFO 17608 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 09:11:18.221 - INFO 17608 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 09:11:18.222 - INFO 17608 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 09:11:18.222 - INFO 17608 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 09:11:18.316 - INFO 17608 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 09:11:18.316 - INFO 17608 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1124 ms
+2023-01-11 09:11:18.416 - INFO 17608 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 09:11:19.013 - INFO 17608 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 09:11:19.692 - INFO 17608 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 09:11:19.759 - INFO 17608 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 09:11:19.873 - INFO 17608 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 09:11:19.886 - INFO 17608 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 09:11:19.914 - INFO 17608 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 09:11:20.028 - INFO 17608 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 09:11:20.067 - INFO 17608 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 09:11:20.069 - INFO 17608 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.248 seconds (JVM running for 3.88)
+2023-01-11 10:06:09.445 - INFO 17608 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:06:09.472 - INFO 17608 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 10:06:09.492 - INFO 17608 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2023-01-11 10:06:20.257 - INFO 9932 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 9932 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 10:06:20.261 - INFO 9932 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 10:06:21.246 - INFO 9932 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 10:06:21.426 - INFO 9932 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 10:06:21.432 - INFO 9932 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:06:21.433 - INFO 9932 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 10:06:21.433 - INFO 9932 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 10:06:21.523 - INFO 9932 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 10:06:21.523 - INFO 9932 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1202 ms
+2023-01-11 10:06:21.639 - INFO 9932 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 10:06:22.300 - INFO 9932 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 10:06:23.050 - INFO 9932 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 10:06:23.126 - INFO 9932 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:06:23.248 - INFO 9932 [           main] o.s.s.c.ThreadPoolTaskScheduler          171: Initializing ExecutorService 'taskScheduler'
+2023-01-11 10:06:23.279 - INFO 9932 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 10:06:23.294 - INFO 9932 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 10:06:23.318 - INFO 9932 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 10:06:23.470 - INFO 9932 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:06:23.523 - INFO 9932 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 10:06:23.525 - INFO 9932 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.769 seconds (JVM running for 4.946)
+2023-01-11 10:06:40.075 - INFO 9932 [nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 10:06:40.075 - INFO 9932 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2023-01-11 10:06:40.079 - INFO 9932 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 4 ms
+2023-01-11 10:07:01.012 -ERROR 9932 [nio-9999-exec-2] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+org.springframework.dao.DuplicateKeyException: com.example.lirui.mapper.MoDataMapper.insert (batch index #1) failed. Cause: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595623)。
+; 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595623)。; nested exception is java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595623)。
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:189)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:211)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.executeBatch(ServiceImpl.java:234)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.saveBatch(ServiceImpl.java:130)
+	at com.baomidou.mybatisplus.extension.service.IService.saveBatch(IService.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.saveBatch(Unknown Source)
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595623)。
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2303)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:78)
+	at com.sun.proxy.$Proxy129.executeBatch(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisBatchExecutor.doFlushStatements(MybatisBatchExecutor.java:135)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.flushStatements(MybatisCachingExecutor.java:218)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:252)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.lambda$executeBatch$0(SqlHelper.java:217)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:179)
+	... 80 common frames omitted
+2023-01-11 10:07:20.985 -ERROR 9932 [nio-9999-exec-3] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+org.springframework.dao.DuplicateKeyException: com.example.lirui.mapper.MoDataMapper.insert (batch index #1) failed. Cause: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595623)。
+; 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595623)。; nested exception is java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595623)。
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:189)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:211)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.executeBatch(ServiceImpl.java:234)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.saveBatch(ServiceImpl.java:130)
+	at com.baomidou.mybatisplus.extension.service.IService.saveBatch(IService.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.saveBatch(Unknown Source)
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595623)。
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2303)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:78)
+	at com.sun.proxy.$Proxy129.executeBatch(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisBatchExecutor.doFlushStatements(MybatisBatchExecutor.java:135)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.flushStatements(MybatisCachingExecutor.java:218)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:252)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.lambda$executeBatch$0(SqlHelper.java:217)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:179)
+	... 80 common frames omitted
+2023-01-11 10:08:01.001 -ERROR 9932 [nio-9999-exec-5] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+org.springframework.dao.DuplicateKeyException: com.example.lirui.mapper.MoDataMapper.insert (batch index #1) failed. Cause: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595635)。
+; 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595635)。; nested exception is java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595635)。
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:189)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:211)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.executeBatch(ServiceImpl.java:234)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.saveBatch(ServiceImpl.java:130)
+	at com.baomidou.mybatisplus.extension.service.IService.saveBatch(IService.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.saveBatch(Unknown Source)
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595635)。
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2303)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:551)
+	at sun.reflect.GeneratedMethodAccessor140.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:78)
+	at com.sun.proxy.$Proxy129.executeBatch(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisBatchExecutor.doFlushStatements(MybatisBatchExecutor.java:135)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.flushStatements(MybatisCachingExecutor.java:218)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:252)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.lambda$executeBatch$0(SqlHelper.java:217)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:179)
+	... 80 common frames omitted
+2023-01-11 10:08:40.980 -ERROR 9932 [nio-9999-exec-7] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+org.springframework.dao.DuplicateKeyException: com.example.lirui.mapper.MoDataMapper.insert (batch index #1) failed. Cause: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595645)。
+; 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595645)。; nested exception is java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595645)。
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:189)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:211)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.executeBatch(ServiceImpl.java:234)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.saveBatch(ServiceImpl.java:130)
+	at com.baomidou.mybatisplus.extension.service.IService.saveBatch(IService.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.saveBatch(Unknown Source)
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595645)。
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2303)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:551)
+	at sun.reflect.GeneratedMethodAccessor140.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:78)
+	at com.sun.proxy.$Proxy129.executeBatch(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisBatchExecutor.doFlushStatements(MybatisBatchExecutor.java:135)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.flushStatements(MybatisCachingExecutor.java:218)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:252)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.lambda$executeBatch$0(SqlHelper.java:217)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:179)
+	... 80 common frames omitted
+2023-01-11 10:09:00.908 - INFO 9932 [extShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          208: Shutting down ExecutorService 'taskScheduler'
+2023-01-11 10:09:00.909 - INFO 9932 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:09:00.911 - INFO 9932 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 10:09:00.914 - INFO 9932 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2023-01-11 10:09:00.952 -ERROR 9932 [nio-9999-exec-8] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+org.springframework.dao.DuplicateKeyException: com.example.lirui.mapper.MoDataMapper.insert (batch index #1) failed. Cause: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595645)。
+; 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595645)。; nested exception is java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595645)。
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:189)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:211)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.executeBatch(ServiceImpl.java:234)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.saveBatch(ServiceImpl.java:130)
+	at com.baomidou.mybatisplus.extension.service.IService.saveBatch(IService.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.saveBatch(Unknown Source)
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595645)。
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2303)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:551)
+	at sun.reflect.GeneratedMethodAccessor140.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:78)
+	at com.sun.proxy.$Proxy129.executeBatch(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisBatchExecutor.doFlushStatements(MybatisBatchExecutor.java:135)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.flushStatements(MybatisCachingExecutor.java:218)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:252)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.lambda$executeBatch$0(SqlHelper.java:217)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:179)
+	... 80 common frames omitted
+2023-01-11 10:09:28.210 - INFO 25468 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 25468 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 10:09:28.218 - INFO 25468 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 10:09:29.053 - INFO 25468 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 10:09:29.227 - INFO 25468 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 10:09:29.233 - INFO 25468 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:09:29.234 - INFO 25468 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 10:09:29.234 - INFO 25468 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 10:09:29.329 - INFO 25468 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 10:09:29.330 - INFO 25468 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1075 ms
+2023-01-11 10:09:29.436 - INFO 25468 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 10:09:30.007 - INFO 25468 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 10:09:30.701 - INFO 25468 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 10:09:30.761 - INFO 25468 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:09:30.878 - INFO 25468 [           main] o.s.s.c.ThreadPoolTaskScheduler          171: Initializing ExecutorService 'taskScheduler'
+2023-01-11 10:09:30.922 - INFO 25468 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 10:09:30.941 - INFO 25468 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 10:09:30.963 - INFO 25468 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 10:09:31.069 - INFO 25468 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:09:31.108 - INFO 25468 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 10:09:31.110 - INFO 25468 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.261 seconds (JVM running for 4.21)
+2023-01-11 10:09:40.050 - INFO 25468 [nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 10:09:40.050 - INFO 25468 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2023-01-11 10:09:40.054 - INFO 25468 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 4 ms
+2023-01-11 10:10:04.007 -ERROR 25468 [nio-9999-exec-2] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+org.springframework.dao.DuplicateKeyException: com.example.lirui.mapper.MoDataMapper.insert (batch index #1) failed. Cause: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595659)。
+; 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595659)。; nested exception is java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595659)。
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:192)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:217)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.executeBatch(ServiceImpl.java:240)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.saveBatch(ServiceImpl.java:136)
+	at com.baomidou.mybatisplus.extension.service.IService.saveBatch(IService.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.saveBatch(Unknown Source)
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595659)。
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2303)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:78)
+	at com.sun.proxy.$Proxy129.executeBatch(Unknown Source)
+	at org.apache.ibatis.executor.BatchExecutor.doFlushStatements(BatchExecutor.java:123)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+	at org.apache.ibatis.executor.CachingExecutor.flushStatements(CachingExecutor.java:114)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:249)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.lambda$executeBatch$1(SqlHelper.java:224)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:182)
+	... 80 common frames omitted
+2023-01-11 10:10:40.984 -ERROR 25468 [nio-9999-exec-4] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+org.springframework.dao.DuplicateKeyException: com.example.lirui.mapper.MoDataMapper.insert (batch index #1) failed. Cause: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595670)。
+; 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595670)。; nested exception is java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595670)。
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:192)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:217)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.executeBatch(ServiceImpl.java:240)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.saveBatch(ServiceImpl.java:136)
+	at com.baomidou.mybatisplus.extension.service.IService.saveBatch(IService.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.saveBatch(Unknown Source)
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595670)。
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2303)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:78)
+	at com.sun.proxy.$Proxy129.executeBatch(Unknown Source)
+	at org.apache.ibatis.executor.BatchExecutor.doFlushStatements(BatchExecutor.java:123)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+	at org.apache.ibatis.executor.CachingExecutor.flushStatements(CachingExecutor.java:114)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:249)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.lambda$executeBatch$1(SqlHelper.java:224)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:182)
+	... 80 common frames omitted
+2023-01-11 10:10:50.586 - INFO 25468 [extShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          208: Shutting down ExecutorService 'taskScheduler'
+2023-01-11 10:10:50.587 - INFO 25468 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:10:50.588 - INFO 25468 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 10:10:50.594 - INFO 25468 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2023-01-11 10:10:55.261 - INFO 23560 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 23560 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 10:10:55.264 - INFO 23560 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 10:10:56.090 - INFO 23560 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 10:10:56.253 - INFO 23560 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 10:10:56.259 - INFO 23560 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:10:56.259 - INFO 23560 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 10:10:56.259 - INFO 23560 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 10:10:56.349 - INFO 23560 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 10:10:56.349 - INFO 23560 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1049 ms
+2023-01-11 10:10:56.448 - INFO 23560 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 10:10:57.020 - INFO 23560 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 10:10:57.669 - INFO 23560 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 10:10:57.728 - INFO 23560 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:10:57.823 - INFO 23560 [           main] o.s.s.c.ThreadPoolTaskScheduler          171: Initializing ExecutorService 'taskScheduler'
+2023-01-11 10:10:57.846 - INFO 23560 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 10:10:57.857 - INFO 23560 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 10:10:57.879 - INFO 23560 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 10:10:57.980 - INFO 23560 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:10:58.018 - INFO 23560 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 10:10:58.020 - INFO 23560 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.099 seconds (JVM running for 3.8)
+2023-01-11 10:11:00.047 - INFO 23560 [nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 10:11:00.047 - INFO 23560 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2023-01-11 10:11:00.051 - INFO 23560 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 4 ms
+2023-01-11 10:11:11.627 -ERROR 23560 [nio-9999-exec-3] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+org.springframework.dao.DuplicateKeyException: com.example.lirui.mapper.MoDataMapper.insert (batch index #1) failed. Cause: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595677)。
+; 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595677)。; nested exception is java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595677)。
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:192)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:217)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.executeBatch(ServiceImpl.java:240)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.saveBatch(ServiceImpl.java:136)
+	at com.baomidou.mybatisplus.extension.service.IService.saveBatch(IService.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.saveBatch(Unknown Source)
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595677)。
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2303)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:78)
+	at com.sun.proxy.$Proxy129.executeBatch(Unknown Source)
+	at org.apache.ibatis.executor.BatchExecutor.doFlushStatements(BatchExecutor.java:123)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+	at org.apache.ibatis.executor.CachingExecutor.flushStatements(CachingExecutor.java:114)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:249)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.lambda$executeBatch$1(SqlHelper.java:224)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:182)
+	... 80 common frames omitted
+2023-01-11 10:11:21.013 -ERROR 23560 [nio-9999-exec-7] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+org.springframework.dao.DuplicateKeyException: com.example.lirui.mapper.MoDataMapper.insert (batch index #1) failed. Cause: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595677)。
+; 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595677)。; nested exception is java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595677)。
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:192)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:217)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.executeBatch(ServiceImpl.java:240)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.saveBatch(ServiceImpl.java:136)
+	at com.baomidou.mybatisplus.extension.service.IService.saveBatch(IService.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.saveBatch(Unknown Source)
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595677)。
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2303)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:78)
+	at com.sun.proxy.$Proxy129.executeBatch(Unknown Source)
+	at org.apache.ibatis.executor.BatchExecutor.doFlushStatements(BatchExecutor.java:123)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+	at org.apache.ibatis.executor.CachingExecutor.flushStatements(CachingExecutor.java:114)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:249)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.lambda$executeBatch$1(SqlHelper.java:224)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:182)
+	... 80 common frames omitted
+2023-01-11 10:11:30.984 -ERROR 23560 [nio-9999-exec-2] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+org.springframework.dao.DuplicateKeyException: com.example.lirui.mapper.MoDataMapper.insert (batch index #1) failed. Cause: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595677)。
+; 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595677)。; nested exception is java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595677)。
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:192)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:217)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.executeBatch(ServiceImpl.java:240)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.saveBatch(ServiceImpl.java:136)
+	at com.baomidou.mybatisplus.extension.service.IService.saveBatch(IService.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.saveBatch(Unknown Source)
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595677)。
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2303)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:78)
+	at com.sun.proxy.$Proxy129.executeBatch(Unknown Source)
+	at org.apache.ibatis.executor.BatchExecutor.doFlushStatements(BatchExecutor.java:123)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+	at org.apache.ibatis.executor.CachingExecutor.flushStatements(CachingExecutor.java:114)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:249)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.lambda$executeBatch$1(SqlHelper.java:224)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:182)
+	... 80 common frames omitted
+2023-01-11 10:11:51.379 -ERROR 23560 [nio-9999-exec-4] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+org.springframework.dao.DuplicateKeyException: com.example.lirui.mapper.MoDataMapper.insert (batch index #1) failed. Cause: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595688)。
+; 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595688)。; nested exception is java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595688)。
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:192)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:217)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.executeBatch(ServiceImpl.java:240)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.saveBatch(ServiceImpl.java:136)
+	at com.baomidou.mybatisplus.extension.service.IService.saveBatch(IService.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.saveBatch(Unknown Source)
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595688)。
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2303)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:78)
+	at com.sun.proxy.$Proxy129.executeBatch(Unknown Source)
+	at org.apache.ibatis.executor.BatchExecutor.doFlushStatements(BatchExecutor.java:123)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+	at org.apache.ibatis.executor.CachingExecutor.flushStatements(CachingExecutor.java:114)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:249)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.lambda$executeBatch$1(SqlHelper.java:224)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:182)
+	... 80 common frames omitted
+2023-01-11 10:12:01.015 -ERROR 23560 [nio-9999-exec-8] c.e.lirui.advice.GlobalExceptionHandler  33: 出现了异常！{}
+org.springframework.dao.DuplicateKeyException: com.example.lirui.mapper.MoDataMapper.insert (batch index #1) failed. Cause: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595688)。
+; 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595688)。; nested exception is java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595688)。
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:192)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:217)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.executeBatch(ServiceImpl.java:240)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.saveBatch(ServiceImpl.java:136)
+	at com.baomidou.mybatisplus.extension.service.IService.saveBatch(IService.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.saveBatch(Unknown Source)
+	at com.example.lirui.service.iml.ExternPropertyServiceImpl.insertData(ExternPropertyServiceImpl.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.insertData(Unknown Source)
+	at com.example.lirui.controller.ExternPropertyController.test1(ExternPropertyController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.BatchUpdateException: 违反了 PRIMARY KEY 约束“PK__mo_data__3213E83F05C157B1”。不能在对象“test.mo_data”中插入重复键。重复键值为 (7595688)。
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2303)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeBatch(DruidPooledPreparedStatement.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:78)
+	at com.sun.proxy.$Proxy129.executeBatch(Unknown Source)
+	at org.apache.ibatis.executor.BatchExecutor.doFlushStatements(BatchExecutor.java:123)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+	at org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+	at org.apache.ibatis.executor.CachingExecutor.flushStatements(CachingExecutor.java:114)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:249)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.lambda$executeBatch$1(SqlHelper.java:224)
+	at com.baomidou.mybatisplus.extension.toolkit.SqlHelper.executeBatch(SqlHelper.java:182)
+	... 80 common frames omitted
+2023-01-11 10:12:01.651 - INFO 23560 [extShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          208: Shutting down ExecutorService 'taskScheduler'
+2023-01-11 10:12:01.652 - INFO 23560 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:12:01.653 - INFO 23560 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 10:12:01.656 - INFO 23560 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2023-01-11 10:12:28.746 - INFO 19552 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 19552 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 10:12:28.756 - INFO 19552 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 10:12:29.541 - INFO 19552 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 10:12:29.695 - INFO 19552 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 10:12:29.701 - INFO 19552 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:12:29.701 - INFO 19552 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 10:12:29.701 - INFO 19552 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 10:12:29.789 - INFO 19552 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 10:12:29.789 - INFO 19552 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1002 ms
+2023-01-11 10:12:29.886 - INFO 19552 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 10:12:30.561 - INFO 19552 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 10:12:31.282 - INFO 19552 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 10:12:31.345 - INFO 19552 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:12:31.438 - INFO 19552 [           main] o.s.s.c.ThreadPoolTaskScheduler          171: Initializing ExecutorService 'taskScheduler'
+2023-01-11 10:12:31.461 - INFO 19552 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 10:12:31.472 - INFO 19552 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 10:12:31.495 - INFO 19552 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 10:12:31.607 - INFO 19552 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:12:31.647 - INFO 19552 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 10:12:31.650 - INFO 19552 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.223 seconds (JVM running for 3.867)
+2023-01-11 10:12:40.054 - INFO 19552 [nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 10:12:40.054 - INFO 19552 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2023-01-11 10:12:40.059 - INFO 19552 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 4 ms
+2023-01-11 10:14:13.626 - INFO 19552 [extShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          208: Shutting down ExecutorService 'taskScheduler'
+2023-01-11 10:14:13.627 - INFO 19552 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:14:13.628 - INFO 19552 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 10:14:13.631 - INFO 19552 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2023-01-11 10:28:47.054 - INFO 22688 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 22688 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 10:28:47.057 - INFO 22688 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 10:28:47.970 - INFO 22688 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 10:28:48.149 - INFO 22688 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 10:28:48.155 - INFO 22688 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:28:48.155 - INFO 22688 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 10:28:48.155 - INFO 22688 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 10:28:48.271 - INFO 22688 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 10:28:48.271 - INFO 22688 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1162 ms
+2023-01-11 10:28:48.388 - INFO 22688 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 10:28:49.042 - INFO 22688 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 10:28:49.788 - INFO 22688 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 10:28:49.852 - INFO 22688 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:28:49.969 - INFO 22688 [           main] o.s.s.c.ThreadPoolTaskScheduler          171: Initializing ExecutorService 'taskScheduler'
+2023-01-11 10:28:50.024 - INFO 22688 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 10:28:50.044 - INFO 22688 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 10:28:50.075 - INFO 22688 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 10:28:50.204 - INFO 22688 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:28:50.256 - INFO 22688 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 10:28:50.269 - INFO 22688 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.633 seconds (JVM running for 4.437)
+2023-01-11 10:29:00.066 - INFO 22688 [nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 10:29:00.066 - INFO 22688 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2023-01-11 10:29:00.072 - INFO 22688 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 6 ms
+2023-01-11 10:43:51.617 - INFO 22688 [extShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          208: Shutting down ExecutorService 'taskScheduler'
+2023-01-11 10:43:51.620 - INFO 22688 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:43:51.622 - INFO 22688 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 10:43:51.627 - INFO 22688 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2023-01-11 10:53:37.611 - INFO 92 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 92 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 10:53:37.613 - INFO 92 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 10:53:38.407 - INFO 92 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 10:53:38.555 - INFO 92 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 10:53:38.561 - INFO 92 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:53:38.562 - INFO 92 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 10:53:38.562 - INFO 92 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 10:53:38.656 - INFO 92 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 10:53:38.657 - INFO 92 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 999 ms
+2023-01-11 10:53:38.761 - INFO 92 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 10:53:39.322 - INFO 92 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 10:53:39.961 - INFO 92 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 10:53:40.017 - INFO 92 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:53:40.114 - INFO 92 [           main] o.s.s.c.ThreadPoolTaskScheduler          171: Initializing ExecutorService 'taskScheduler'
+2023-01-11 10:53:40.139 - INFO 92 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 10:53:40.150 - INFO 92 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 10:53:40.177 - INFO 92 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 10:53:40.308 - INFO 92 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:53:40.347 - INFO 92 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 10:53:40.349 - INFO 92 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.062 seconds (JVM running for 3.738)
+2023-01-11 10:53:50.055 - INFO 92 [nio-9999-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 10:53:50.056 - INFO 92 [nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2023-01-11 10:53:50.060 - INFO 92 [nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 4 ms
+2023-01-11 10:55:24.685 - INFO 92 [extShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          208: Shutting down ExecutorService 'taskScheduler'
+2023-01-11 10:55:24.686 - INFO 92 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:55:24.687 - INFO 92 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 10:55:24.690 - INFO 92 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2023-01-11 10:57:58.602 - INFO 18060 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 18060 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 10:57:58.610 - INFO 18060 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 10:57:59.399 - INFO 18060 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 10:57:59.551 - INFO 18060 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 10:57:59.557 - INFO 18060 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:57:59.557 - INFO 18060 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 10:57:59.558 - INFO 18060 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 10:57:59.646 - INFO 18060 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 10:57:59.646 - INFO 18060 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1003 ms
+2023-01-11 10:57:59.745 - INFO 18060 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 10:58:00.296 - INFO 18060 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 10:58:00.941 - INFO 18060 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 10:58:01.001 - INFO 18060 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 10:58:01.090 - INFO 18060 [           main] o.s.s.c.ThreadPoolTaskScheduler          171: Initializing ExecutorService 'taskScheduler'
+2023-01-11 10:58:01.113 - INFO 18060 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 10:58:01.125 - INFO 18060 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 10:58:01.145 - INFO 18060 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 10:58:01.256 - INFO 18060 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 10:58:01.297 - INFO 18060 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 10:58:01.299 - INFO 18060 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.019 seconds (JVM running for 3.646)
+2023-01-11 10:58:10.045 - INFO 18060 [nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 10:58:10.045 - INFO 18060 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2023-01-11 10:58:10.049 - INFO 18060 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 4 ms
+2023-01-11 11:07:22.683 - INFO 18060 [extShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          208: Shutting down ExecutorService 'taskScheduler'
+2023-01-11 11:07:22.684 - INFO 18060 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 11:07:22.685 - INFO 18060 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 11:07:22.687 - INFO 18060 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2023-01-11 11:23:37.516 - INFO 16532 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 16532 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 11:23:37.518 - INFO 16532 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 11:23:38.426 - INFO 16532 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 11:23:38.757 - INFO 16532 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 11:23:38.774 - INFO 16532 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 11:23:38.775 - INFO 16532 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 11:23:38.776 - INFO 16532 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 11:23:38.936 - INFO 16532 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 11:23:38.936 - INFO 16532 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1386 ms
+2023-01-11 11:23:39.044 - INFO 16532 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 11:23:39.620 - INFO 16532 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 11:23:40.263 - INFO 16532 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 11:23:40.323 - INFO 16532 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 11:23:40.422 - INFO 16532 [           main] o.s.s.c.ThreadPoolTaskScheduler          171: Initializing ExecutorService 'taskScheduler'
+2023-01-11 11:23:40.447 - INFO 16532 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 11:23:40.460 - INFO 16532 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 11:23:40.484 - INFO 16532 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 11:23:40.584 - INFO 16532 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 11:23:40.627 - INFO 16532 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 11:23:40.629 - INFO 16532 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.435 seconds (JVM running for 4.272)
+2023-01-11 11:23:50.071 - INFO 16532 [nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 11:23:50.071 - INFO 16532 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2023-01-11 11:23:50.076 - INFO 16532 [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 5 ms
+2023-01-11 11:24:22.380 - INFO 16532 [extShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          208: Shutting down ExecutorService 'taskScheduler'
+2023-01-11 11:24:22.382 - INFO 16532 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 11:24:22.383 - INFO 16532 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 11:24:22.387 - INFO 16532 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed
+2023-01-11 11:25:27.944 - INFO 8384 [           main] com.example.lirui.LiruiApplication       55: Starting LiruiApplication on CZ-B-MP2BHT3Y with PID 8384 (D:\lirui\target\classes started by Administrator in D:\lirui)
+2023-01-11 11:25:27.946 - INFO 8384 [           main] com.example.lirui.LiruiApplication       655: The following profiles are active: dev
+2023-01-11 11:25:28.765 - INFO 8384 [           main] trationDelegate$BeanPostProcessorChecker 330: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-11 11:25:28.919 - INFO 8384 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  92: Tomcat initialized with port(s): 9999 (http)
+2023-01-11 11:25:28.925 - INFO 8384 [           main] o.a.coyote.http11.Http11NioProtocol      173: Initializing ProtocolHandler ["http-nio-9999"]
+2023-01-11 11:25:28.926 - INFO 8384 [           main] o.apache.catalina.core.StandardService   173: Starting service [Tomcat]
+2023-01-11 11:25:28.926 - INFO 8384 [           main] org.apache.catalina.core.StandardEngine  173: Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-01-11 11:25:29.018 - INFO 8384 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring embedded WebApplicationContext
+2023-01-11 11:25:29.019 - INFO 8384 [           main] o.s.web.context.ContextLoader            284: Root WebApplicationContext: initialization completed in 1036 ms
+2023-01-11 11:25:29.120 - INFO 8384 [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure 55: Init DruidDataSource
+2023-01-11 11:25:29.686 - INFO 8384 [           main] com.alibaba.druid.pool.DruidDataSource   985: {dataSource-1} inited
+2023-01-11 11:25:30.382 - INFO 8384 [           main] pertySourcedRequestMappingHandlerMapping 69: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-11 11:25:30.437 - INFO 8384 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  171: Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-11 11:25:30.527 - INFO 8384 [           main] o.s.s.c.ThreadPoolTaskScheduler          171: Initializing ExecutorService 'taskScheduler'
+2023-01-11 11:25:30.551 - INFO 8384 [           main] d.s.w.p.DocumentationPluginsBootstrapper 160: Context refreshed
+2023-01-11 11:25:30.562 - INFO 8384 [           main] d.s.w.p.DocumentationPluginsBootstrapper 163: Found 1 custom documentation plugin(s)
+2023-01-11 11:25:30.580 - INFO 8384 [           main] s.d.s.w.s.ApiListingReferenceScanner     41: Scanning for api listing references
+2023-01-11 11:25:30.695 - INFO 8384 [           main] o.a.coyote.http11.Http11NioProtocol      173: Starting ProtocolHandler ["http-nio-9999"]
+2023-01-11 11:25:30.733 - INFO 8384 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  204: Tomcat started on port(s): 9999 (http) with context path ''
+2023-01-11 11:25:30.735 - INFO 8384 [           main] com.example.lirui.LiruiApplication       61: Started LiruiApplication in 3.111 seconds (JVM running for 3.752)
+2023-01-11 11:25:40.044 - INFO 8384 [nio-9999-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       173: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 11:25:40.044 - INFO 8384 [nio-9999-exec-4] o.s.web.servlet.DispatcherServlet        525: Initializing Servlet 'dispatcherServlet'
+2023-01-11 11:25:40.048 - INFO 8384 [nio-9999-exec-4] o.s.web.servlet.DispatcherServlet        547: Completed initialization in 4 ms
+2023-01-11 11:26:39.861 - INFO 8384 [extShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          208: Shutting down ExecutorService 'taskScheduler'
+2023-01-11 11:26:39.861 - INFO 8384 [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  208: Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-11 11:26:39.862 - INFO 8384 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2105: {dataSource-1} closing ...
+2023-01-11 11:26:39.865 - INFO 8384 [extShutdownHook] com.alibaba.druid.pool.DruidDataSource   2178: {dataSource-1} closed

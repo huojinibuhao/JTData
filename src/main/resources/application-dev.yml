@@ -5,7 +5,7 @@ server:
 spring:
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://localhost:1433;DatabaseName=test;encrypt=true;trustServerCertificate=true;useSSL=false
+    url: jdbc:sqlserver://172.20.0.12:1433;DatabaseName=test;encrypt=true;trustServerCertificate=true;useSSL=false
     username: sa
     password: overseas
     type: com.alibaba.druid.pool.DruidDataSource
